@@ -4,4 +4,6 @@ name = input('Please enter your name:')
 
 surname = input('Please enter your surname:')
 
-print('Hi, {} {}!'.format(name, surname))
+nickname = input('Please enter your nickname:')
+
+print('Hi, {} {} a.k.a {}!'.format(name, surname, nickname))
